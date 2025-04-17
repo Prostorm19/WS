@@ -1,0 +1,27 @@
+<html> 
+
+<head> 
+
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"> 
+
+    <title>Google Maps Input</title> 
+
+</head> 
+
+<body> 
+
+    <h3>Enter Latitude and Longitude</h3> 
+
+    <form action="index.jsp"> 
+
+        <label>Enter Latitude:</label> <input type="text" name="t1" required /><br> 
+
+        <label>Enter Longitude:</label> <input type="text" name="t2" required /><br> 
+
+        <input type="submit" value="Show on Map" /> 
+
+    </form> 
+
+</body> 
+
+</html> 
