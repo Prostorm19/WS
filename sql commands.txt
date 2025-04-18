@@ -1,0 +1,8 @@
+create database ccdb1;
+use ccdb1;
+show tables;
+create table Player(pname varchar(50), page int, pcountry varchar(50), runs int  ---> run this command in MySQL at the start
+select * from player
+insert into player values ('raj',34,'India',300)
+update player set runs=300 where pname='raj'
+delete from player where pname='raja'
