@@ -1,0 +1,14 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
+<html>
+<head>
+    <title>Multiply Two Numbers</title>
+</head>
+<body>
+    <h2>Multiplication Web Client</h2>
+    <form action="multiply.jsp" method="post">
+        Enter first number: <input type="text" name="num1"><br>
+        Enter second number: <input type="text" name="num2"><br>
+        <input type="submit" value="Multiply">
+    </form>
+</body>
+</html>
